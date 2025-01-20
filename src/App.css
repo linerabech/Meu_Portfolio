@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-color-01: #eb4283;
+  --main-color-02: #e791B1;
+  --text-color-01: #000;
+  --bg-color-01: #d3c3dc;
+  --bg-color-02: #323946;
+
+
+}
+
+
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+body {
+  background-color: var(--bg-color-01);
+  color: var(--text-color-01);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+
+header {
+  width: 100%;
+  padding: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.navbar-container, .destaque {
+  font-family: 'Krona One', sans-serif;
+  font-size: 1rem;
+  color: var(--main-color-01);
+}
+
+.menu-hamburguer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+  right: 0.5rem;
+  padding: 0.5rem;
+  background:none;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem;
+  right: 0;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+
+
+
+
+.curriculo {
+  display:flex;
+  align-items: center;
+}
+
+.primaryButton {
+  font-family: 'Krona-One', sans-serif;
+  transition: 0.5s;
+
+}
+
+.primaryButton:hover {
+  box-shadow: var(--main-color-01);
+}
+
+.tecnologias {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 10rem;
+  height: 10rem;
+}
+.projects {
+  width: 20rem;
+  height: 20rem;
+}
+
+footer {
+  display: block;
+  padding: 2rem 0;
+  text-align: center;
+  background-color: var(--bg-color-01);
+  color: var(--text-color);
+}
