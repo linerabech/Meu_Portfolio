@@ -5,7 +5,7 @@ import { ReactTyped } from "react-typed";
 export const Welcome = () => {
     return <Painel className="home" id="home">
     <div className="home-content flex flex-col gap-4">
-    <h2 className="flex flex-col gap-2 text-base lg:text-2xl">  
+    <h2 className="flex flex-col gap-2 text-base lg:text-2xl font-bold">  
       <span>Olá!</span>
       <span> Meu nome é </span>
       <span className="destaque text-base lg:text-2xl">Aline Rabech Oliveira</span>
